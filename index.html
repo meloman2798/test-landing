@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="slick_gen/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick_gen/slick/slick-theme.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="container">
+    <div class="burger">
+        <img src="img/burger.png">
+    </div>
+    <div class="title">
+        <ul class="ul_group">
+            <li class="active">
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">About me</a>
+            </li>
+            <li>
+                <a href="#">Skills</a>
+            </li>
+            <li>
+                <a href="#">Portfolio</a>
+            </li>
+            <li>
+                <a href="#">Contacts</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="first">
+        <div class="h1_text">
+            <p>Denis<br>Novik</p>
+        </div>
+
+        <div class="h2_text">
+            <p>UX|UI designer<br>24 years old,Minsk</p>
+        </div>
+        <div class="lang">
+            <p>RU|ENG</p>
+        </div>
+    </div>
+    <div class="sl">
+        <div class="sl_slide">
+            <img src="img/13.png">
+        </div>
+        <div class="sl_slide">
+            <img src="img/1.jpg">
+        </div>
+        <div class="sl_slide">
+            <img src="img/2.jpg">
+        </div>
+        <div class="sl_slide">
+            <img src="img/3.jpg">
+        </div>
+        <div class="sl_slide">
+            <img src="img/4.jpg">
+        </div>
+        <div class="sl_slide">
+            <img src="img/5.jpg">
+        </div>
+    </div>
+    <div class="img_sec">
+        <img src="img/13.png">
+    </div>
+</div>
+<div class="bg-gray">
+    <div class="container">
+        <div class="about">
+            <div class="head_line_f">About me</div>
+            <p>Hi, I'm Denis – UX/UI designer from Minsk.<br>
+                I'm interested in design and everything connected with it.</p>
+            <p>I'm studying at courses "Web and mobile design<br>
+                interfaces" in IT-Academy.</p>
+            <p>Ready to implement excellent projects<br>
+                with wonderful people.</p>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="skills">
+        <div class="head_line">Skills</div>
+        <p>I work in such programs as</p>
+    </div>
+
+    <div class="img">
+        <div class="img_s">
+            <img src="img/ps.png" alt="">
+            <p>Adobe Photoshop</p>
+            <img src="img/four.png">
+        </div>
+        <div class="img_">
+            <img src="img/ai.png">
+            <p>Adobe Illustrator</p>
+            <img src="img/three.png">
+        </div>
+        <div>
+            <img src="img/ae.png">
+            <p>Adobe After Effects</p>
+            <img src="img/four.png">
+        </div>
+        <div>
+            <img src="img/fg.png">
+            <p>Figma</p>
+            <img src="img/four.png">
+        </div>
+    </div>
+</div>
+<div class="bg-gray">
+    <div class="container">
+        <div class="port">
+            <div class="head_sec">Portfolio</div>
+            <div class="text_gr">
+                <img src="img/port.png">
+                <div><a href="#">Online fashion store - Homepage</a></div>
+            </div>
+            <div class="text_gr">
+                <img src="img/reebok.png">
+                <div><a href="#">Reebok Store - Concept</a></div>
+            </div>
+            <div class="text_gr">
+                <img src="img/cam.png">
+                <div><a href="#">Braun Landing Page - Concept</a></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="cont">Contacts</div>
+    <div class="cont_mes">Want to know more or just chat?<br> You are welcome!</div>
+    <div class="text-center">
+        <button class="button" type="submit">Send message</button>
+    </div>
+    <div class="last">
+        <img src="img/in.png">
+        <img src="img/inst.png">
+        <img src="img/be.png">
+        <img src="img/ball.png">
+    </div>
+    <div class="last_pos">Like me on <br>LinkedIn, Instagram, Behance, Dribble</div>
+</div>
+<div class="nav">
+    <ul>
+        <li><b>Home</b></li>
+        <li>About me</li>
+        <li>Skills</li>
+        <li>Portfolio</li>
+        <li>Contacts</li>
+    </ul>
+    <div class="exit">
+        <span>
+            <img src="img/x.png">
+        </span>
+    </div>
+    <div class="leng">
+        <p>RU|ENG</p>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+    $('.burger img').click(function () {
+        $('.nav').addClass('active');
+    })
+    $('.exit').click(function () {
+        $('.nav').removeClass('active');
+    })
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript" src="slick_gen/slick/slick.min.js"></script>
+<script src="js.js"></script>
+</body>
+</html>
